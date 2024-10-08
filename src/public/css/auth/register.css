@@ -1,0 +1,79 @@
+.app-header {
+    background-color: #FFFFFF;
+    max-width: 1230px;
+}
+
+.header__heading {
+    font-size: 28px;
+    margin: 10px 50px;
+}
+
+.register-form {
+    background-color: #DCDCDC;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.content__heading {
+    font-size: 20px;
+    padding-top: 40px;
+}
+
+.register-form__inner {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    padding-bottom: 130px;
+}
+
+@media screen and (max-width: 1200px) {
+    .register-form__form {
+    width: 60vw;
+    }
+}
+
+.register-form__group {
+    margin-bottom: 20px;
+}
+
+.register-form__input {
+    display: block;
+    padding: 5px 10px;
+    width: 110%;
+    height: 40px;
+    border: 1px solid #808080;
+    border-radius: 3px;
+    color: #808080;
+}
+
+.register-form__btn {
+    display: block;
+    padding: 5px;
+    width: 110%;
+    height: 40px;
+    text-align: center;
+    margin-bottom: 20px;
+    border: 1px solid #808080;
+    border-radius: 3px;
+    color: #FFFFFF;
+    background-color: #0000FF;
+}
+
+.register-form__message {
+    color: #808080;
+    font-size: 16px;
+}
+
+.register-form__login-link {
+    color: #0000FF;
+    text-decoration: none;
+}
+
+.app-footer {
+    text-align: center;
+    padding-top: 5px;
+}
+
+.copyright {
+    font-weight: bold;
+}

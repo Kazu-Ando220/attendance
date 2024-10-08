@@ -1,0 +1,77 @@
+.app-header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    max-width: 1230px;
+}
+
+.header__heading {
+    font-size: 28px;
+    margin: 10px 50px;
+}
+
+.header-nav__list {
+    margin: 10px 50px;
+    gap: 20px;
+}
+
+.date-form {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    background-color: #DCDCDC;
+}
+
+.date-form__heading {
+    margin-bottom: 30px;
+}
+
+.date-form__left-arrow,
+.date-form__right-arrow
+{
+    color: #0000FF;
+    background: #ffffff;
+    border: 1px solid #0000FF;
+}
+
+.date__table {
+    margin: 0 16px auto 0;
+    border-collapse: collapse;
+}
+
+.date__row {
+    border-top: 1px solid #808080;
+}
+
+.date__label,
+.date__data {
+    padding: 16px 8px
+}
+
+.date__label:first-of-type,
+.date__data:first-of-type {
+    padding-left: 20px;
+}
+
+.date__label:last-of-type,
+.date__data:last-of-type {
+    padding-right: 40px;
+}
+
+.date__label {
+    text-align: left;
+    font-weight: 400;
+}
+
+.pagination-form {
+    padding-top: 16px;
+}
+
+.app-footer {
+    text-align: center;
+    padding-top: 5px;
+}
+
+.copyright {
+    font-weight: bold;
+}

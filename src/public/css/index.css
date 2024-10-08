@@ -1,0 +1,46 @@
+.app-header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    max-width: 1230px;
+}
+
+.header__heading {
+    font-size: 28px;
+    margin: 10px 50px;
+}
+
+.header-nav__list {
+    margin: 10px 50px;
+    gap: 20px;
+}
+
+.input-form {
+    background-color: #DCDCDC;
+    margin: 30px auto 0;
+    padding-bottom: 50px
+}
+
+.input-form__group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 80%  ;
+}
+
+.input-form__btn {
+    margin: 5px;
+    width: 25%;
+    height: 25%;
+    background-color: #FFFFFF;
+}
+
+.app-footer {
+    text-align: center;
+    padding-top: 5px;
+}
+
+.copyright {
+    font-weight: bold;
+}
